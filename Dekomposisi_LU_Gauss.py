@@ -91,19 +91,14 @@ class DekomposisiLU:
         
         return x
 
-# Banner program
 print("|| PROGRAM PENYELESAIAN PERSAMAAN LINIER ||")
 print("||   ALMAN KAMAL MAHDI - 21120122120024  ||")
 print("||         METODE NUMERIK KELAS B        ||")
-
-# Menu pilihan
 print("Silahkan Pilih Metode:")
 print("1. Metode Dekomposisi LU")
 
-# Meminta pilihan pengguna
 choice = int(input("Masukkan nomor metode yang ingin digunakan: "))
 
-# Berdasarkan pilihan pengguna, panggil fungsi yang sesuai
 if  choice == 1:
     DekomposisiLU().solve()
 else:
