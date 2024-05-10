@@ -44,7 +44,6 @@ class MatriksBalikan:
     def inverse_matrix(self, matrix):
         return np.linalg.inv(matrix)
 
-# Banner program
 print("|| PROGRAM PENYELESAIAN PERSAMAAN LINIER ||")
 print("||   ALMAN KAMAL MAHDI - 21120122120024  ||")
 print("||         METODE NUMERIK KELAS B        ||")
